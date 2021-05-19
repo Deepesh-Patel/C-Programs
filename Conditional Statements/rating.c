@@ -2,7 +2,9 @@
 #include<conio.h>
 int main()
 { 
-    int rating; printf("Enter You Rating\n"); 
+    int rating;
+
+    printf("Enter You Rating\n"); 
     scanf("%d",&rating);
     
     switch(rating) 
