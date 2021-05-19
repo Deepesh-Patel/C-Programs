@@ -4,7 +4,7 @@
 #include<conio.h>
 int main()
 {
-    int n,fact;
+    int n,fact=1;
     
     printf("Enter any number to know its factorial:\n");
     scanf("%d",&n);
