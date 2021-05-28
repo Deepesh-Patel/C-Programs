@@ -15,7 +15,7 @@ int main()
     scanf("%f",&r);
 
     printf("Enter Side of a square:\n");
-    scanf("%s",&s);
+    scanf("%d",&s);
 
     printf("Enter Height and Radius of cylinder:\n");
     scanf("%f%f",&h,&r);
