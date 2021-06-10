@@ -6,7 +6,7 @@ int main()
     int n1=0, n2=0, temp=0;
 
     printf("Enter any two number:\n");
-    scanf("%d%d",&num1,&num2);
+    scanf("%d%d",&n1,&n2);
 
     printf("\n\nBefore swapping, N1=%d, N2=&%d",n1,n2);
 
