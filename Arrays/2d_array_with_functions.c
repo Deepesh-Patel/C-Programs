@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-void display(int stud, int sub)
+int display(int stud, int sub)
 {
     stud = 2;
     sub = 4;
