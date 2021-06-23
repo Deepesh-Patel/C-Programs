@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 #include<conio.h>
-float average(int a, int b, int c);
+float avg(int a, int b, int c);
 
 int main()
 {
@@ -17,13 +17,13 @@ int main()
     printf("Enter the value of c:\n");
     scanf("%d",&c);
 
-    printf("Average of %d, %d & %d is: %f\n",a,b,c,average(a,b,c));
+    printf("Average of %d, %d & %d is: %f\n",a,b,c,avg(a,b,c));
 
     getch();
     return 0;
 }
 
-float average(int a, int b, int c)
+float avg(int a, int b, int c)
 {
     int result;
     result = (float)(a + b + c)/3;
