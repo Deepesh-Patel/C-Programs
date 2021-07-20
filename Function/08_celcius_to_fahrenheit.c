@@ -12,7 +12,7 @@ int main()
 
     printf("The %.2f celcius is equal to the %.2f fahrenheit", temp, fahren(temp));
 
-    getch()
+    getch();
     return 0;
 }
 
